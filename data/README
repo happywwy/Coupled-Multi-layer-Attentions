@@ -1,0 +1,22 @@
+Introduction
+This annotation dataset is firstly used in the paper 
+"Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms". 
+
+The annotations are made on the customer review dataset from SemEval Challenge 2015 Task 12 Subtask 1. 
+The annotation from the challenge only contains aspect term labels. 
+We create opinion term labels for the same customer review sentences.
+
+Description
+The annotation contains 2 files corresponding to customer reviews from restaurant domain for both training and testing. 
+For training, the file contains opinion term annotations for 1315 training sentences
+(These reviews are the same as the ones in the challenge.) 
+Each line in the annotation file lists all the opinion terms separated by ",". 
+Each opinion term is followed by "+1" or "-1" indicating the opinion polarity. 
+The order of the annotations is in line with the order of the original review texts. 
+"NIL" indicates there is no explicit opinions for the corresponding review text.
+
+Citation
+If you would like to use this annotation dataset, please cite the following paper
+"Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms"
+Wenya Wang, Sinno Jialin Pan, Daniel Dahlmeier and Xiaokui Xiao
+In Proceedings of the AAAI 2017
