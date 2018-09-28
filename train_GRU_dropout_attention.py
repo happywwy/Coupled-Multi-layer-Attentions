@@ -447,14 +447,14 @@ if __name__ == '__main__':
     parser.add_argument('-b', '--batch_size', help='adagrad minibatch size', type=int,\
                         default=1)
     parser.add_argument('-ep', '--num_epochs', help='number of training epochs, can also determine \
-                         dynamically via validate method', type=int, default=8)
+                         dynamically via validate method', type=int, default=15)
 
     args = vars(parser.parse_args())
     outcome = open('outcomes_gru_tensor_pdropout_res15.txt', 'a')
     
     #build lstm model
     s = {'fold':5, # 5 folds 0,1,2,3,4
-		'lr':0.07,
+		'lr':0.05,
 		'verbose':1,
 		'decay':False, # decay on the learning rate if improvement stops
 		'win':3, # number of words in the context window
