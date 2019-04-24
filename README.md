@@ -1,7 +1,7 @@
 # Coupled-Multi-layer-Attentions
 Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms
 
-********************README**************************************************************************
+## README
 
 This is an instruction file for successfully running the CMLA model of the paper "Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms" published in AAAI 2017:
 http://www.aaai.org/Conferences/AAAI/2017/PreliminaryPapers/15-Wang-W-14441.pdf
